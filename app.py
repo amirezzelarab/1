@@ -3,6 +3,7 @@ import numpy as np
 import random
 import pickle
 import nltk
+nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 from tensorflow.keras.models import Sequential
